@@ -19,6 +19,27 @@
                 :placeholder="__('Full name')"
             />
 
+            <flux:input
+                name="curso"
+                :label="'Curso'"
+                :value="old('curso')"
+                type="text"
+                required
+                autofocus
+                autocomplete="curso"
+                :placeholder="'Curso'"
+            />
+            <flux:input
+                name="rgm"
+                :label="'RGM'"
+                :value="old('rgm')"
+                type="text"
+                required
+                autofocus
+                autocomplete="rgm"
+                :placeholder="'RGM'"
+            />
+
             <!-- Email Address -->
             <flux:input
                 name="email"
@@ -53,7 +74,7 @@
             />
 
             <div class="flex items-center justify-end">
-                <flux:button type="submit" variant="primary" class="w-full" data-test="register-user-button">
+                <flux:button type="submit" variant="primary" class="w-full cursor-pointer" data-test="register-user-button">
                     {{ __('Create account') }}
                 </flux:button>
             </div>
