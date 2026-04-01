@@ -16,6 +16,17 @@
                 <x-placeholder-pattern
                     class="absolute inset-0 size-full stroke-gray-900/20 dark:stroke-neutral-100/20" />
             </div>
+            <div>
+                <form class="form">
+                    <input type="text" id="telefone" name="telefone" placeholder="Telefone">
+                    <input type="text" id="polo" name="polo" placeholder="Polo">
+                    <input type="text" id="espaco" name="espaco" placeholder="Espaço">
+                    <input type="text" id="curso" name="curso" placeholder="Curso">
+                    <input type="text" id="professor" name="professor" placeholder="Professor">
+                    <input type="text" id="semestre" name="semestre" placeholder="Semestre">
+                </form>
+                <button type="submit">
+            </div>
         </div>
         <div
             class="relative flex flex-col w-full h-full overflow-scroll text-gray-200 shadow-md rounded-lg bg-clip-border">
@@ -25,6 +36,11 @@
                         <th class="p-4">
                             <p class="text-sm leading-none font-normal">
                                 Protocolo
+                            </p>
+                        </th>
+                        <th class="p-4">
+                            <p class="text-sm leading-none font-normal">
+                                Telefone
                             </p>
                         </th>
                         <th class="p-4">
@@ -72,6 +88,10 @@
                         </td>
                         <td class="p-4">
                             <p class="text-sm">
+                                4002-8922
+                            </p>    
+                        <td class="p-4">
+                            <p class="text-sm">
                                 Guarulhos
                             </p>
                         </td>
@@ -111,3 +131,10 @@
         </div>
     </div>
 </x-layouts::app>
+<form>
+    <input type="text">
+    <input type="text">
+    <input type="text">
+
+</form>
+
